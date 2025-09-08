@@ -131,7 +131,7 @@ body{
         top: 70px;
         bottom: 0;
         right: 0;
-        background-color: #000;
+        background-color: #03215d;
         overflow-y: auto;
         display: grid;
         grid-auto-rows: max-content;
