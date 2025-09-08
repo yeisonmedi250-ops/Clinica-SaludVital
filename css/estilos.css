@@ -9,11 +9,11 @@
 
 body{
     font-family: 'Poppins', sans-serif;
-    background-color: #c8c8c8;
+    background-color: #e6e5e5;
 }
 
 .menu{
-    background-color: #1A202C;
+    background-color: #03318d;
     color: #fff;
     height: 70px;
 }
@@ -57,7 +57,7 @@ body{
 }
 
 .menu__link:hover{
-    background-color: #5e7094;
+    background-color: #082b72;
 }
 
 
@@ -79,7 +79,7 @@ body{
     bottom: 0;
     width: max-content;
     transform: translateY(100%);
-    background-color: #000;
+    background-color: #03318da8;
 }
 
 .menu__link--inside{
@@ -87,7 +87,7 @@ body{
 }
 
 .menu__link--inside:hover{
-    background-color: #798499;
+    background-color: #061e4a;
 }
 
 .menu__hamburguer{
