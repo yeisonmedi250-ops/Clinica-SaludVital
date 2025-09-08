@@ -18,6 +18,15 @@ body{
     height: 70px;
 }
 
+
+.menu__logo > img{
+    width:18%; 
+    height:50%;
+  object-fit:cover;   /* recorta bordes para llenar */
+  object-position:center;
+  display:block;
+}
+
 .menu__container{
     display: flex;
     justify-content: space-between;
