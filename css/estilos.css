@@ -41,6 +41,7 @@ body{
     height: 100%;
     transition: transform .5s;
     display: flex;
+    z-index: 1000;
 }
 
 .menu__item{
