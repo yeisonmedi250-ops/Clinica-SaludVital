@@ -19,13 +19,13 @@ body{
 }
 
 
-.menu__logo > img{
+/* .menu__logo > img{
     width:18%; 
     height:50%;
   object-fit:cover;   /* recorta bordes para llenar */
-  object-position:center;
+ /* object-position:center;
   display:block;
-}
+} */
 
 .menu__container{
     display: flex;
@@ -178,3 +178,78 @@ body{
         border-left: 1px solid #798499;
     }
 }
+
+
+
+/* --- Slider --- */
+.slider{
+  position:relative;
+  width:100%;
+  height:500px;
+  overflow:hidden;
+  background:#eee;
+}
+.slides{
+  position:relative;
+  width:100%;
+  height:100%;
+}
+.slide{
+  position:absolute;
+  width:100%;
+  height:100%;
+  opacity:0;
+  transition:opacity 1s ease;
+}
+.slide.active{ opacity:1; }
+.slide img{
+  width:100%;
+  height:100%;
+  object-fit:cover;
+}
+.caption{
+  position:absolute;
+  bottom:50px;
+  left:50%;
+  transform:translateX(-50%);
+  background:rgba(0,0,0,0.5);
+  color:#fff;
+  padding:12px 20px;
+  border-radius:6px;
+  font-size:20px;
+}
+
+/* Botones */
+.prev, .next{
+  position:absolute;
+  top:50%;
+  transform:translateY(-50%);
+  background:rgba(0,0,0,0.5);
+  color:#fff;
+  border:none;
+  font-size:30px;
+  padding:10px;
+  cursor:pointer;
+  border-radius:50%;
+}
+.prev{ left:20px; }
+.next{ right:20px; }
+.prev:hover, .next:hover{ background:#003399; }
+
+/* Puntos */
+.dots{
+  position:absolute;
+  bottom:20px;
+  left:50%;
+  transform:translateX(-50%);
+  display:flex;
+  gap:10px;
+}
+.dot{
+  width:12px;
+  height:12px;
+  background:#bbb;
+  border-radius:50%;
+  cursor:pointer;
+}
+.dot.active{ background:#003399; }
