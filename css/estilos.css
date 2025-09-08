@@ -12,6 +12,11 @@ body{
     background-color: #e6e5e5;
 }
 
+html {
+  scroll-behavior: smooth; /*  hace el desplazamiento suave */
+}
+
+
 .menu{
     background-color: #03318d;
     color: #fff;
@@ -189,6 +194,7 @@ body{
   height:500px;
   overflow:hidden;
   background:#eee;
+  /* margin-top: 20px; */
 }
 .slides{
   position:relative;
@@ -254,3 +260,13 @@ body{
   cursor:pointer;
 }
 .dot.active{ background:#003399; }
+
+
+
+.Contenido{
+      padding: 60px 20px;
+  max-width: 900px;
+  margin: 0 auto;
+  text-align: center;
+  z-index: 10000;
+}
