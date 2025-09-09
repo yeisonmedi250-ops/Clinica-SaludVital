@@ -270,3 +270,7 @@ html {
   text-align: center;
   z-index: 10000;
 }
+
+.Contenido > p{
+    text-align: justify;
+}
