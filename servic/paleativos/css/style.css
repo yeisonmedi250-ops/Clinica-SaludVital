@@ -184,3 +184,14 @@ html {
         border-left: 1px solid #798499;
     }
 }
+
+
+/* Contenido */
+
+.Contenido{
+  padding: 60px 20px;
+  max-width: 900px;
+  margin: 0 auto;
+  text-align: center;
+  z-index: 10000;
+}
