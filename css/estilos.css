@@ -263,7 +263,7 @@ html {
 
 
 
-.Contenido{
+.Caja{
       padding: 60px 20px;
   max-width: 900px;
   margin: 0 auto;
@@ -271,10 +271,10 @@ html {
   z-index: 10000;
 }
 
-.Contenido > h2{
+.Caja > h2{
     text-transform: uppercase;
 }
 
-.Contenido > p{
+.Caja > p{
     text-align: justify;
 }
